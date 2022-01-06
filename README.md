@@ -121,9 +121,10 @@ Description:  As we port-forwarding the application accessing /star endpoint, it
 *TODO*: Create a Dashboard containing graphs that capture all the metrics of your KPIs and adequately representing your SLIs and SLOs. Include a screenshot of the dashboard here, and write a text description of what graphs are represented in the dashboard.  
 ![Final Dashboard](./answer-img/dashboard-final.png)
 
-Uptime: Uptime of the service, by measuring the number of 20x and 30x responses.
-Response Time: Average respond time of the request.
-50x Error: 50x respond from our service
-40x Error: 40x respond from our service
-CPU Usage: CPU utilization by the service
-Memory Usage: Memory utilization by the service
+Discription of panel in dashboard:
+- Uptime: Uptime of the service, by measuring the number of 20x and 30x responses.
+- Response Time: Average respond time of the request.
+- 50x Error: 50x respond from our service
+- 40x Error: 40x respond from our service
+- CPU Usage: CPU utilization by the service
+- Memory Usage: Memory utilization by the service
