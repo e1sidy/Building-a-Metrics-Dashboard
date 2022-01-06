@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: elsidy/frontend:latest
+        image: elsidy/dashboard-frontend:latest
         imagePullPolicy: Always
         ports:
         - name: frontendport

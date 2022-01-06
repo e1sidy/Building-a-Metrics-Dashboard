@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: trial
-        image: elsidy/trial:latest
+        image: elsidy/dashboard-trial:latest
         imagePullPolicy: Always
         env:
         - name: JAEGER_HOST

@@ -24,7 +24,7 @@ spec:
       - env:
         - name: JAEGER_HOST
           value: simpletest-agent.observability.svc.cluster.local
-        image: elsidy/backend:latest
+        image: elsidy/dashboard-backend:latest
         imagePullPolicy: Always
         name: backend
         ports:
